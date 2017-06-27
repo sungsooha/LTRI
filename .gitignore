@@ -3,3 +3,4 @@ build/src/sf_*
 build/.DS_Store
 test/fp_cube_object/*
 test/fp_cube_object.cmd
+test/sart_slp/slp512_360.mat
