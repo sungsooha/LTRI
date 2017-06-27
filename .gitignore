@@ -1,3 +1,5 @@
 build/src/sf_*
 .DS_Store
 build/.DS_Store
+test/fp_cube_object/*
+test/fp_cube_object.cmd
