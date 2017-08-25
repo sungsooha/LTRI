@@ -1,1 +1,8 @@
 # LTRI
+
+This project has the complete CUDA source code for the forward/back projection kernels described in the paper “A Look-Up Table-Based Ray Integration Framework for 2D/3D Forward and Back-projection in X-ray CT” authored by Sungsoo Ha and Klaus Mueller (Computer Science Department, Stony Brook University). This paper was published in IEEE Transactions on Medical Imaging. 2017. The author’s copy of the paper can be obtained from this [link](http://www3.cs.stonybrook.edu/~mueller/papers/IEEE%20TMI%202017%20LUT.pdf).
+ 
+Paper abstract:
+Iterative algorithms have become increasingly popular in Computed Tomography (CT) image reconstruction since they better deal with the adverse image artifacts arising from low radiation dose image acquisition. But iterative methods remain computationally expensive. The main cost emerges in the projection and backprojection operations where accurate CT system modeling can greatly improve the quality of the
+reconstructed image. We present a framework that improves upon one particular aspect – the accurate projection of the image basis functions. It differs from current methods in that it substitutes the high computational complexity associated with accurate voxel projection by a small number of memory operations. Coefficients are computed in advance and stored in look-up tables parameterized by the CT system’s projection geometry. The look-up tables only require a few kilobytes of storage and can be efficiently accelerated on the GPU. We demonstrate our
+framework with both numerical and clinical experiments and compare its performance with the current state of the art scheme – the separable footprint method.
